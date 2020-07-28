@@ -1,7 +1,7 @@
 {
-  "name": "react-boiler-plate",
+  "name": "parcial3",
   "version": "1.0.0",
-  "description": "react boiler plate",
+  "description": "parcial 3",
   "main": "index.js",
   "engine": {
     "node": "10.16.0",
@@ -13,7 +13,7 @@
     "frontend": "npm run front --prefix client",
     "dev": "concurrently \"npm run backend\" \"npm run start --prefix client\""
   },
-  "author": "John ahn",
+  "author": "Ivan Garcia",
   "license": "ISC",
   "dependencies": {
     "async": "^3.1.0",
@@ -29,7 +29,8 @@
     "multer": "^1.4.2",
     "react-paypal-express-checkout": "^1.0.5",
     "react-redux": "^5.0.7",
-    "socket.io": "^2.2.0"
+    "socket.io": "^2.2.0",
+    "concurrently": "^4.1.0"
   },
   "devDependencies": {
     "concurrently": "^4.1.0",
