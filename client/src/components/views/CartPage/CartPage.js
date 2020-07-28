@@ -105,7 +105,6 @@ function CartPage(props) {
                         <Result
                             status="Completado"
                             title={'Compra completada - Su link de descarga será enviado por correo'}
-                        
                         >
                        
                         </Result>
